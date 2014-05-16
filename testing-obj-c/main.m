@@ -16,7 +16,9 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         id firstObj  = @"someString";
-        id secondObj = @[firstObj, secondObj];
+        id secondObj = nil;
+        
+        NSArray * someArray = @[firstObj, secondObj];
         
         
     }
