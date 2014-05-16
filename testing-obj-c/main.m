@@ -37,6 +37,27 @@ int main(int argc, const char * argv[])
         //sorting
         NSArray * sortedArray = [someArray sortedArrayUsingSelector:@selector(compare:)];
         
+        //Mutability using mutable elements in the array
+        //mutating the mutableString
+        NSMutableString * mutableString = [NSMutableString stringWithString:@"Hello"];
+        NSArray * inmutableArray       = @[mutableString];
+        
+        if ([inmutableArray count] > 0) {
+            id string = inmutableArray[0];
+            if ([string isKindOfClass:[NSMutableString class]]) {
+                [string appendString:@" world, Mutability"];
+            }
+        }
+        
+        //Mutable Array
+        NSMutableArray *mutableArray = [NSMutableArray array];
+        [mutableArray addObject:@"gamma"];
+        [mutableArray addObject:@"alpha"];
+        [mutableArray addObject:@"beta"];
+        
+        [mutableArray replaceObjectAtIndex:0 withObject:@"epsilon"];
+        
+        [mutableArray sortUsingSelector:@selector(caseInsensitiveCompare:)];
         
     }
     return 0;
