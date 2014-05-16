@@ -16,9 +16,15 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         id firstObj  = @"someString";
-        id secondObj = nil;
+        id secondObj = @"Andres";
+        id thirdObj  = @"Kwan";
         
-        NSArray * someArray = @[firstObj, secondObj];
+        NSArray * someArray = @[firstObj, secondObj, thirdObj];
+        
+        //Quering array objects
+        if ([someArray containsObject:secondObj]) {
+            NSLog(@"\nSecondObj is %@", [someArray objectAtIndex:[someArray indexOfObject:secondObj]]);
+        }
         
         
     }
