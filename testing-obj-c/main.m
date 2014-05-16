@@ -18,13 +18,24 @@ int main(int argc, const char * argv[])
         id firstObj  = @"someString";
         id secondObj = @"Andres";
         id thirdObj  = @"Kwan";
-        
-        NSArray * someArray = @[firstObj, secondObj, thirdObj];
+        id fourthObj  = @"Orjuela";
+        NSArray * someArray = @[firstObj, secondObj, thirdObj, fourthObj];
         
         //Quering array objects
+        //--identify index of obj in array
         if ([someArray containsObject:secondObj]) {
             NSLog(@"\nSecondObj is %@", [someArray objectAtIndex:[someArray indexOfObject:secondObj]]);
         }
+        
+        //without indexOfArray
+        if ([someArray count] > 0 )
+        {
+            NSLog(@"\nLast obj: %@", someArray[2]);
+            NSLog(@"\nLast obj: %@", [someArray lastObject]);
+        }
+        
+        //sorting
+        NSArray * sortedArray = [someArray sortedArrayUsingSelector:@selector(compare:)];
         
         
     }
