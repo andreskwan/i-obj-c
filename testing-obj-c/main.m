@@ -16,6 +16,11 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         
+        //sets
+        NSNumber *aValue  = @85;
+        NSSet *simpleSet = [NSSet setWithObjects:@"Hello sets",@42,aValue, nil];
+        
+        NSSet *simpleSet2 = [NSSet setWithObjects:@42,@42,@42,@42,@43, nil];
     }
     return 0;
 }
