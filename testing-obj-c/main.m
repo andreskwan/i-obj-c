@@ -30,8 +30,16 @@ int main(int argc, const char * argv[])
         //Querying
         NSString *storedObj1 = [dict2 objectForKey:@"k3"];
 
-        //subscript syntax 
+        //subscript syntax
         NSString *storedObj2 = dict2[@"k1"];
+        
+        //Mutability
+        //I have to allocate the dictionary before use it
+        NSMutableDictionary *mutDic = [[NSMutableDictionary alloc]init];
+        
+        [mutDic addEntriesFromDictionary:dict2];
+        
+        [mutDic setObject:@"o5" forKey:@"k5"];
         
         
     }
