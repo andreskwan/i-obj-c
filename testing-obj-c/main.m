@@ -12,10 +12,8 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
         // insert code here...
         NSLog(@"Hello, World!");
-        
         //sets
         NSNumber *aValue  = @85;
         NSSet *simpleSet = [NSSet setWithObjects:@"Hello sets",@42,aValue, nil];
@@ -24,4 +22,3 @@ int main(int argc, const char * argv[])
     }
     return 0;
 }
-
