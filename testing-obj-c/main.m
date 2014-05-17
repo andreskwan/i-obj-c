@@ -16,6 +16,11 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         
+        NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    @"k1",@"Obj1",
+                                    @"k2",@"Obj2",
+                                    @"k3",@"Obj3", nil];
+        
     }
     return 0;
 }
