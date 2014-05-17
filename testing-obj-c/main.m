@@ -41,6 +41,16 @@ int main(int argc, const char * argv[])
         
         [mutDic setObject:@"o5" forKey:@"k5"];
         
+        //Null in collections - singleton class
+        [mutDic setObject:[NSNull null] forKey:@"k6"];
+        
+        //check for null
+        for (id obj in mutDic) {
+            if (mutDic[obj] == [NSNull null]) {
+                NSLog(@"\nFound a null obj with key: %@", obj);
+            }
+        }
+        
         
     }
     return 0;
