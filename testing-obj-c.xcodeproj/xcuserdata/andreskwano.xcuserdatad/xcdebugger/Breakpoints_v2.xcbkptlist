@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "testing-obj-c/main.m"
-            timestampString = "422917053.382847"
+            timestampString = "422917819.356155"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101">
+            startingLineNumber = "100"
+            endingLineNumber = "100">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "testing-obj-c/main.m"
-            timestampString = "422917053.382847"
+            timestampString = "422917819.356155"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65">
+            startingLineNumber = "64"
+            endingLineNumber = "64">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

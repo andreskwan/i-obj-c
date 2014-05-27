@@ -12,15 +12,19 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        int days_in_a_week = 7;
-        float cm_to_in = 2.54;
-        char the_w;
-        the_w = 'W';
+        float numbers_geeks_love[3];
+        numbers_geeks_love[0] = 3.1415;
+        numbers_geeks_love[1] = 1.6180;
+        numbers_geeks_love[2] = 1.4142;
         
-        // insert code here...
-        printf("%d is an int   days in week\n",days_in_a_week);
-        printf("%f is a float \n",cm_to_in);
-        printf("%c is a char  \n",the_w);
+        int primer[] = {2,3,5,7,11,13};
+        float math_constants[2];
+        math_constants[0] = 2.71828;
+        math_constants[1] = 1.41421;
+//        for(int i=0; i )
+        printf("length of the array %lu \n",sizeof(primer) / sizeof(primer[0]));
+        
+        printf("Euler's number = %f\n",math_constants[0]);
     }
     return 0;
 }
