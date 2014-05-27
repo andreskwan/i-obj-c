@@ -14,7 +14,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+         printf("Hello World! using C in Xcode\n");
         
     }
     return 0;
