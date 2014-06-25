@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define NSSET YES
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        
+#if NSSET == YES
         // insert code here...
         NSLog(@"Hello, World!");
         //sets
@@ -19,6 +21,9 @@ int main(int argc, const char * argv[])
         NSSet *simpleSet = [NSSet setWithObjects:@"Hello sets",@42,aValue, nil];
         
         NSSet *simpleSet2 = [NSSet setWithObjects:@42,@42,@42,@42,@43, nil];
+#endif
+        
+        
     }
     return 0;
 }
