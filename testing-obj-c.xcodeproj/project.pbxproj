@@ -253,6 +253,7 @@
 				EA5BA7551926907500D46E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

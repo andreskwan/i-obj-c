@@ -12,6 +12,7 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+
         // insert code here...
         NSLog(@"Hello, World!");
         id firstObj  = @"someString";
@@ -68,6 +69,14 @@ int main(int argc, const char * argv[])
                                @"k2": @"o2",
                                @"k3": @"o3",
                                @"k4": @"o4"};
+
+        //pure C into objective-C
+        int a = 9;
+        printf("a %d\n",a);
+        
+        int c = a++;
+        printf("c: %d, a: %d\n",c,a);
+
         
         //Querying
         NSString *storedObj1 = [dict2 objectForKey:@"k3"];
