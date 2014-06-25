@@ -7,18 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define C_PROG YES
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+#if C_PROG == YES
         //pure C into objective-C
         int a = 9;
         printf("a %d\n",a);
         
         int c = a++;
         printf("c: %d, a: %d\n",c,a);
-        
+#endif
     }
     return 0;
 }
