@@ -12,10 +12,15 @@
 
 #define C_PROG YES
 
+#define NSSET YES
+
+#define NSARRAY YES
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        
+#if NSARRAY == YES
         // insert code here...
         NSLog(@"Hello, World!");
         id firstObj  = @"someString";
@@ -62,7 +67,7 @@ int main(int argc, const char * argv[])
         
         [mutableArray sortUsingSelector:@selector(caseInsensitiveCompare:)];
         
-
+#endif
 
 #if C_PROG == YES
         //pure C into objective-C
@@ -109,16 +114,15 @@ int main(int argc, const char * argv[])
                 NSLog(@"\nFound a null obj with key: %@", obj);
             }
         }
+#endif
         
-
+#if NSSET == YES
         //sets
         NSNumber *aValue  = @85;
         NSSet *simpleSet = [NSSet setWithObjects:@"Hello sets",@42,aValue, nil];
 
         
         NSSet *simpleSet2 = [NSSet setWithObjects:@42,@42,@42,@42,@43, nil];
-
-
 #endif
 
     }

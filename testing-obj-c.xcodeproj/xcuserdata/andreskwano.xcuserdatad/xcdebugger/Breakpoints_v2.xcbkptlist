@@ -39,6 +39,7 @@
 >>>>>>> dictionaries
          </BreakpointContent>
       </BreakpointProxy>
+<<<<<<< HEAD
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
@@ -57,6 +58,8 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+=======
+>>>>>>> sets
    </Breakpoints>
 >>>>>>> sets
 =======
