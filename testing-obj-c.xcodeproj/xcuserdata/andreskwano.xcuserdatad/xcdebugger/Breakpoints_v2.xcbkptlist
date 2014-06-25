@@ -4,6 +4,7 @@
    version = "2.0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c-programming
@@ -74,5 +75,7 @@
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
+>>>>>>> c-programming
+=======
 >>>>>>> c-programming
 </Bucket>

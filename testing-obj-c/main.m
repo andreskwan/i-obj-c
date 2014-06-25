@@ -7,12 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #define NSDIC YES
+
+#define C_PROG YES
+
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-
         // insert code here...
         NSLog(@"Hello, World!");
         id firstObj  = @"someString";
@@ -59,27 +62,30 @@ int main(int argc, const char * argv[])
         
         [mutableArray sortUsingSelector:@selector(caseInsensitiveCompare:)];
         
-#if NSDIC == YES
-        NSDictionary *dict1 = [NSDictionary dictionaryWithObjectsAndKeys:
-                                    @"k1",@"Obj1",
-                                    @"k2",@"Obj2",
-                                    @"k3",@"Obj3", nil];
 
-        
-        //Literals - second way to create a dict
-        NSDictionary *dict2 = @{@"k1": @"o1",
-                               @"k2": @"o2",
-                               @"k3": @"o3",
-                               @"k4": @"o4"};
 
+#if C_PROG == YES
         //pure C into objective-C
         int a = 9;
         printf("a %d\n",a);
         
         int c = a++;
         printf("c: %d, a: %d\n",c,a);
+#endif
 
+#if NSDIC == YES
+        NSDictionary *dict1 = [NSDictionary dictionaryWithObjectsAndKeys:
+                               @"k1",@"Obj1",
+                               @"k2",@"Obj2",
+                               @"k3",@"Obj3", nil];
         
+        
+        //Literals - second way to create a dict
+        NSDictionary *dict2 = @{@"k1": @"o1",
+                                @"k2": @"o2",
+                                @"k3": @"o3",
+                                @"k4": @"o4"};
+
         //Querying
         NSString *storedObj1 = [dict2 objectForKey:@"k3"];
 
@@ -111,6 +117,7 @@ int main(int argc, const char * argv[])
 
         
         NSSet *simpleSet2 = [NSSet setWithObjects:@42,@42,@42,@42,@43, nil];
+
 
 #endif
 
