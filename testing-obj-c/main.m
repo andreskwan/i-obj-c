@@ -12,19 +12,13 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        float numbers_geeks_love[3];
-        numbers_geeks_love[0] = 3.1415;
-        numbers_geeks_love[1] = 1.6180;
-        numbers_geeks_love[2] = 1.4142;
+        //pure C into objective-C
+        int a = 9;
+        printf("a %d\n",a);
         
-        int primer[] = {2,3,5,7,11,13};
-        float math_constants[2];
-        math_constants[0] = 2.71828;
-        math_constants[1] = 1.41421;
-//        for(int i=0; i )
-        printf("length of the array %lu \n",sizeof(primer) / sizeof(primer[0]));
+        int c = a++;
+        printf("c: %d, a: %d\n",c,a);
         
-        printf("Euler's number = %f\n",math_constants[0]);
     }
     return 0;
 }
