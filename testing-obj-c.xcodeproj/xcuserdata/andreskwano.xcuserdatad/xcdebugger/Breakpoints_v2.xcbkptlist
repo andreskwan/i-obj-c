@@ -16,6 +16,7 @@
             continueAfterRunningActions = "No"
             filePath = "testing-obj-c/main.m"
 <<<<<<< HEAD
+<<<<<<< HEAD
             timestampString = "421977864.904886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -28,6 +29,13 @@
             startingLineNumber = "98"
             endingLineNumber = "98">
 >>>>>>> c-programming
+=======
+            timestampString = "425353916.619714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99">
+>>>>>>> dictionaries
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -37,6 +45,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "testing-obj-c/main.m"
+<<<<<<< HEAD
 <<<<<<< HEAD
             timestampString = "421977864.904886"
             startingColumnNumber = "9223372036854775807"
@@ -55,6 +64,13 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
             endingLineNumber = "62">
+=======
+            timestampString = "425353916.619714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63">
+>>>>>>> dictionaries
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

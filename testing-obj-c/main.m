@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define NSDIC YES
 int main(int argc, const char * argv[])
 {
 
@@ -59,10 +59,12 @@ int main(int argc, const char * argv[])
         
         [mutableArray sortUsingSelector:@selector(caseInsensitiveCompare:)];
         
+#if NSDIC == YES
         NSDictionary *dict1 = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"k1",@"Obj1",
                                     @"k2",@"Obj2",
                                     @"k3",@"Obj3", nil];
+
         
         //Literals - second way to create a dict
         NSDictionary *dict2 = @{@"k1": @"o1",
@@ -102,12 +104,17 @@ int main(int argc, const char * argv[])
             }
         }
         
+
         //sets
         NSNumber *aValue  = @85;
         NSSet *simpleSet = [NSSet setWithObjects:@"Hello sets",@42,aValue, nil];
 
         
         NSSet *simpleSet2 = [NSSet setWithObjects:@42,@42,@42,@42,@43, nil];
+
+#endif
+
     }
     return 0;
+    
 }
