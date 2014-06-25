@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define NSDIC YES
 int main(int argc, const char * argv[])
 {
 
@@ -16,10 +16,12 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         
+#if NSDIC == YES
         NSDictionary *dict1 = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"k1",@"Obj1",
                                     @"k2",@"Obj2",
                                     @"k3",@"Obj3", nil];
+
         
         //Literals - second way to create a dict
         NSDictionary *dict2 = @{@"k1": @"o1",
@@ -51,8 +53,9 @@ int main(int argc, const char * argv[])
             }
         }
         
-        
+#endif
     }
     return 0;
+    
 }
 
