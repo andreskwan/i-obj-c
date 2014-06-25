@@ -12,7 +12,6 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
         // insert code here...
         NSLog(@"Hello, World!");
         id firstObj  = @"someString";
@@ -94,8 +93,12 @@ int main(int argc, const char * argv[])
             }
         }
         
+        //sets
+        NSNumber *aValue  = @85;
+        NSSet *simpleSet = [NSSet setWithObjects:@"Hello sets",@42,aValue, nil];
+
         
+        NSSet *simpleSet2 = [NSSet setWithObjects:@42,@42,@42,@42,@43, nil];
     }
     return 0;
 }
-
