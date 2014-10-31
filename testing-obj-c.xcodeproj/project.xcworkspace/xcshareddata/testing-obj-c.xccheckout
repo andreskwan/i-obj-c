@@ -5,54 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>E2D600F2-9C4E-4162-A880-DDEAE0DD6BE6</string>
-=======
-	<string>25C9B455-64B6-4AD1-B0BB-99E4C1A330FB</string>
->>>>>>> c-programming
+	<string>17FBF6DB-30F8-4FF8-8FC6-793FA4E11B45</string>
 	<key>IDESourceControlProjectName</key>
 	<string>testing-obj-c</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>A12383B1-9F70-4F46-AD0B-6F8D2D52AE52</key>
-=======
-		<key>56F8F3BB-37EF-4708-BF4E-25853B19D518</key>
->>>>>>> c-programming
+		<key>7F776D054FDBF0D6B6EC8534AB91BE86113F18B9</key>
 		<string>https://github.com/andreskwan/i-obj-c.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>testing-obj-c.xcodeproj/project.xcworkspace</string>
+	<string>testing-obj-c.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>A12383B1-9F70-4F46-AD0B-6F8D2D52AE52</key>
-=======
-		<key>56F8F3BB-37EF-4708-BF4E-25853B19D518</key>
->>>>>>> c-programming
+		<key>7F776D054FDBF0D6B6EC8534AB91BE86113F18B9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/andreskwan/i-obj-c.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
-	<string>A12383B1-9F70-4F46-AD0B-6F8D2D52AE52</string>
-=======
-	<string>56F8F3BB-37EF-4708-BF4E-25853B19D518</string>
->>>>>>> c-programming
+	<string>7F776D054FDBF0D6B6EC8534AB91BE86113F18B9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
-			<string>A12383B1-9F70-4F46-AD0B-6F8D2D52AE52</string>
-=======
-			<string>56F8F3BB-37EF-4708-BF4E-25853B19D518</string>
->>>>>>> c-programming
+			<string>7F776D054FDBF0D6B6EC8534AB91BE86113F18B9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>testing-obj-c</string>
 		</dict>
